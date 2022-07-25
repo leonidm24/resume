@@ -1,0 +1,252 @@
+h4 {
+    color: rgb(197, 125, 8);
+}
+li {
+    list-style-type: none;
+   }
+   li:before {
+    color: rgb(244, 129, 35);
+    content: "➤";
+    padding-right: 10px;
+   }
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(40, 80, 27);
+}
+/* main */
+.main   {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 atuo;
+  background-color: rgb(40, 80, 27);
+}
+/* main-content */
+.main-content {
+margin-left: 10px;
+background-color: white;
+padding-right: 10px;
+padding-left: 10px;
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+
+
+/* about projects */
+.about {
+  
+}
+.about-pos {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1px;
+    padding-top: 12px;
+}
+.about-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+.about-description {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+/* last projects */
+.project-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.last-project {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 10px;
+}
+.project-link {
+    text-decoration: none;
+    color: rgb(197, 125, 8);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+}
+.border-project {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+}
+
+/* work */
+.workexp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+}
+.work-dates {
+    font-style: initial;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    padding-left: 10px;
+}
+.work-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 12px;
+    padding-left: 10px;
+}
+.work-skills {
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.border-work {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+    margin-top: 5px;
+}
+/* education */
+.education {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 5px;
+}
+.educ-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 12px;
+    padding-left: 10px;
+}
+.educ-speciality {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1px;
+    padding-left: 10px;
+}
+.educ-date {
+    color: rgba(70, 63, 63, 0.932);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1px;
+    padding-left: 10px;
+}
+.border-education {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* sidebar */
+.sidebar {
+    width: 247px;
+    background-color: rgb(118, 118, 118);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.photo {
+    line-height: 1px;
+}
+
+/* contacs */
+.contacts {
+    color: white;
+    font-size: noraml;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+}
+.contacts-title {
+    margin-left: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+}
+.contact-class {
+    color: white;
+    margin-left: 20px;
+    font-size: noraml;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.contact-link {
+    text-decoration: none;
+    color: rgb(169, 243, 233);
+}
+.border-contacts {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+    color: white;
+    
+}
+/* techskills */
+.techskills {
+    color: white;
+    font-size: noraml;
+    font-weight: italic;
+    font-size: 14px;
+    line-height: 27px;
+}
+.techul {
+    color: white;
+    padding: 0;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.border-techul {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+    color: white;
+    
+}
+.techskillsitem {
+    color: rgb(244, 129, 35);
+    margin-left: 20px;
+}
+/* softskills */
+.softskills {
+    color: white;
+    font-size: noraml;
+    font-weight: italic;
+    font-size: 14px;
+    line-height: 27px;
+}
+.border-skillsoft {
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: dotted;
+    color: white;
+    
+}
+
+
+
+
